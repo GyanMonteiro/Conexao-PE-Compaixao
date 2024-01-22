@@ -36,7 +36,8 @@ nav {
   display: flex;
   align-items: center;
   gap: 8px;
-  transition: 0.3s
+  transition: 0.3s;
+  cursor: pointer;
 }
 .nav-content button:hover{
   background-color: #2466c9;
@@ -78,18 +79,18 @@ nav {
   border: none;
   border-radius: 8px;
   padding: 16px 8px;
+  cursor: pointer;
 }
-
 .events h1{
   font-size: 32px;
   text-align: center;
 }
 .block-events{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
-      grid-template-rows: repeat(2, 1fr);    /* 2 linhas de altura igual */
-      row-gap: 48px;
-    }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+  grid-template-rows: repeat(2, 1fr);    /* 2 linhas de altura igual */
+  row-gap: 48px;
+}
 .card-event{
   width: 100%; /* Ou qualquer valor que se adeque ao seu layout */
   max-width: 300px; /* Adapte conforme necessário */
@@ -110,4 +111,20 @@ nav {
   background-color: #FF7A00;
   color: #fff;
   padding: 16px 8px;
+  cursor: pointer;
+}
+.btn-content{
+  display: flex;
+  justify-content: center;
+}
+.btn-content button{
+  padding: 16px 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #FF7A00;
+  border: none;
+  border-radius: 8px;
+  margin-top: 32px;
+  cursor: pointer;
 }

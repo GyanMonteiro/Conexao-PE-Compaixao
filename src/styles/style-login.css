@@ -45,27 +45,8 @@ body{
 }
 .input-content input::placeholder{
     font-weight: 600;
-    padding: 24px;
+    padding: 16px;
 }
-.btn-switch-content{
-    display: flex;
-    margin-bottom: 40px;
-    gap: 4px;
-}
-.btn-switch-content button {
-    font-size: 20px;
-    background-color: transparent;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    cursor: pointer;
-}
-
-.border-class {
-    border-bottom: 3px solid #FF7A00 !important; 
-}
-
 .bnt-content{
     display: flex;
     flex-direction: column;
@@ -78,8 +59,11 @@ body{
     color: #fff;
     height: 50px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .btn-register{
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
+
