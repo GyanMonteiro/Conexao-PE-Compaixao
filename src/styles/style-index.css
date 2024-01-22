@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: #D87922;
+    overflow: hidden;
+    padding: 16px 8px;
+}
+.nav-content{
+  display: flex;
+  float: right;
+  gap: 32px;
+}
+.nav-content a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-content a:hover{
+  color: #28268B;
+}
+.nav-content button{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border: none;
+  background-color: #4B7BC5;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s
+}
+.nav-content button:hover{
+  background-color: #2466c9;
+}
+.home{
+  background-image: url(../img/banner1.png);
+  background-size: cover;
+  background-position: center;
+  height: 90vh; 
+}
+
+.section-text{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  border-bottom: 1px solid #C6C6C6;
+}
+.section-text-content{
+  display: flex;
+  flex-direction: column;
+  transform: translatey(-30px);
+  width: 25%;
+}
+.section-text-content h1{
+  font-size: 48px;
+  color: #FF7A00;
+}
+.section-text-content p{
+  font-size: 16px;
+}
+.section-text-content button{
+  width: 60%;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #0300A2;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 8px;
+}
+
+.events h1{
+  font-size: 32px;
+  text-align: center;
+}
+.block-events{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+      grid-template-rows: repeat(2, 1fr);    /* 2 linhas de altura igual */
+      row-gap: 48px;
+    }
+.card-event{
+  width: 100%; /* Ou qualquer valor que se adeque ao seu layout */
+  max-width: 300px; /* Adapte conforme necessário */
+  margin: 0 auto; /* Centraliza a div na largura disponível */
+  text-align: center;
+  background-color: #E4E4E4;
+  padding: 24px 0;
+  border-radius: 16px;
+}
+.card-event h2{
+  font-size: 24px;
+}
+.card-event button{
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background-color: #FF7A00;
+  color: #fff;
+  padding: 16px 8px;
+}
