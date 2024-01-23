@@ -38,6 +38,7 @@ nav {
   gap: 8px;
   transition: 0.3s;
   cursor: pointer;
+  padding: 16px 8px;
 }
 .nav-content button:hover{
   background-color: #2466c9;
@@ -75,15 +76,24 @@ nav {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
-  background-color: #0300A2;
+  background-color: #4B7BC5;
   border: none;
   border-radius: 8px;
   padding: 16px 8px;
   cursor: pointer;
+  margin-top: 24px;
+  transition: 0.3s;
+}
+.section-text-content button:hover{
+  background-color: #2466c9;
+}
+.events button:hover{
+  background-color: #db6b03;
 }
 .events h1{
   font-size: 32px;
   text-align: center;
+  margin: 32px;
 }
 .block-events{
   display: grid;
