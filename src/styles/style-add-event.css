@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: #D87922;
+    overflow: hidden;
+    padding: 16px 8px;
+}
+.nav-content{
+  display: flex;
+  float: right;
+  gap: 32px;
+}
+.nav-content a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-content a:hover{
+  color: #28268B;
+}
+.nav-content button{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border: none;
+  background-color: #4B7BC5;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 16px 8px;
+}
+.nav-content button:hover{
+  background-color: #2466c9;
+}
+
+.btn-switch-content{
+    display: flex;
+    margin-bottom: 40px;
+    gap: 4px;
+}
+.btn-switch-content button {
+    font-size: 20px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    cursor: pointer;
+}
+.border-class {
+    border-bottom: 3px solid #FF7A00 !important; 
+}
+
+.add-event-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF5E5;
+}
+.double-inputs{
+    display: flex;
+    gap: 16px;
+}
+.double-inputs input{
+    width: 100%;
+}
+form input[type= "text"],[type= "tel"],[type= "date"]{
+    height: 40px;
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
+}
