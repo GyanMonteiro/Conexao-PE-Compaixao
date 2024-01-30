@@ -183,6 +183,9 @@ nav {
 .text-content-footer h2{
   color: #fff;
 }
+.text-content-footer p{
+  margin-top: 0;
+}
 .text-content-footer{
   display: flex;
   flex-direction: column;
