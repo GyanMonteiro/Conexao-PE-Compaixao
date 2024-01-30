@@ -138,3 +138,81 @@ nav {
   margin-top: 32px;
   cursor: pointer;
 }
+
+
+
+.about-footer{
+  text-align: center;
+  background-color: #D87922;
+}
+.about-footer h1{
+  color: #fff;
+}
+.content-footer{
+  display: flex;
+}
+.description-footer{
+  margin-left: 17%;
+  width: 30%;
+  text-align: left;
+}
+.description-footer h2{
+  margin-bottom: 16px;
+}
+.description-footer p{
+  margin-bottom: 8px;
+}
+.address-footer, .email-footer{
+  display: flex;
+}
+.icon-class-footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+.icon-class-footer i{
+  font-size: 40px;
+  color: #fff;
+}
+.content-footer{
+  display: flex;
+  margin-top: 32px;
+}
+.text-content-footer h2{
+  color: #fff;
+}
+.text-content-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-footer{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.form-footer form{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+.form-footer input{
+  height: 40px;
+  background-color: #DEB6A2;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.form-footer textarea{
+  background-color: #DEB6A2;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
