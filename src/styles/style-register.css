@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+:root{
+  --main-color: #D77317;
+  --btn-color-main: #3E3CAE;
+  --btn-color-hover: #211F97;
+  --color-white: #F6F6F6;
+  --color-black: #191919;
+}
+
+
 body{
-    background-color: #FFF5E5;
+    background-color: var(--color-white);
 }
 
 *{
+    color: var(--color-black);
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    color: var(--color-black);
 }
 
 .register{
@@ -17,7 +28,7 @@ body{
     background-image: url(../img/frame-login.png);
     background-size: cover;
     background-position: center;
-    width: 90%;
+    width: 60%;
     height: 100vh; 
 }
 .register-content{
@@ -44,7 +55,7 @@ body{
 }
 
 .border-class {
-    border-bottom: 3px solid #FF7A00 !important; 
+    border-bottom: 3px solid var(--main-color) !important; 
 }
 .all-forms{
     width: 60%;
@@ -56,10 +67,11 @@ form{
     column-gap: 8px;
     padding: 20px;
 }
-form input[type= "text"]::placeholder{
-    font-weight: 500;
+form input[type= "text"],[type="email"],[type="password"],[type="tel"]::placeholder{
+    font-weight: 600;
+    padding-left: 16px;
 }
-form input[type= "text"]{
+form input[type= "text"],[type="email"],[type="password"],[type="tel"]{
     height: 40px;
     border: 1px solid #C6C6C6;
     border-radius: 8px;
@@ -69,14 +81,14 @@ form input[type="submit"]{
     height: 45px;
     border: none;
     border-radius: 8px;
-    background-color: #3498db;
-    color: #fff;
+    background-color: var(--btn-color-main);
+    color: var(--color-white);
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-weight: 600;
 }
 form input[type="submit"]:hover {
-    background-color: #2980b9;
+    background-color: var(--btn-color-hover);
 }
 .form-hidden{
     display: none;

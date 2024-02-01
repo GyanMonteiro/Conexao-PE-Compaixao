@@ -12,12 +12,11 @@
 body{
   background-color: var(--color-white);
 }
-
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    color: var(--color-black);
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
 }
 nav {
     background-color: var(--main-color);
@@ -63,51 +62,35 @@ nav {
   font-size: 24px;
 }
 
-.add-event-content{
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.description-event{
+  margin-top: 32px;
+  text-align: center;
 }
-
-form{
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    padding: 24px 112px;
-    gap: 16px;
-    border-radius: 16px;
-    margin: 32px 0;
+.img-event img{
+  margin-top: 32px;
+  margin-bottom: 24px;
+  width: 30%;
+  border-radius: 8px;
 }
-.double-inputs{
-    display: flex;
-    gap: 16px;
+.text-event p{
+  margin-bottom: 16px;
 }
-.double-inputs input{
-    width: 100%;
+.paragraphy-event{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
 }
-form input[type= "text"],[type= "tel"],[type= "date"]{
-    height: 40px;
-    background-color: #FAF8F2;
-    border: 1px solid #E6DBCA;
-    border-radius: 8px;
+.text-event button{
+  padding: 0 16px;
+  height: 50px;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--color-white);
+  background-color: var(--btn-color-main);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
-form input[type="submit"]{
-    height: 40px;
-    border-radius: 8px;
-    border: none;
-    font-weight: 600;
-    color: var(--color-white);
-    background-color: var(--btn-color-main);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-form input[type="submit"]:hover{
-    background-color: var(--btn-color-hover);
-}
-textarea{
-  background-color: #FAF8F2;
-  border: 1px solid #E6DBCA;
+.text-event button:hover{
+  background-color: var(--btn-color-hover);
 }
