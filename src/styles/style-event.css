@@ -86,11 +86,7 @@ nav {
   border: 0;
   border-radius: 8px;
   font-weight: 600;
-  color: var(--color-white);
-  background-color: var(--btn-color-main);
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-}
-.text-event button:hover{
-  background-color: var(--btn-color-hover);
+  background-color: transparent;
+  border: 2px solid #C6C6C6;
+  color: #C6C6C6;
 }
