@@ -259,9 +259,9 @@ nav {
   border: none;
   border-radius: 8px;
   font-weight: 600;
-}
-.form-footer textarea::-moz-placeholder{
-  color: var(--color-black);
-  padding-left: 32px;
+  padding-left: 16px;
   padding-top: 8px;
+}
+.form-footer textarea:-ms-input-placeholder{
+  color: var(--color-black);
 }
