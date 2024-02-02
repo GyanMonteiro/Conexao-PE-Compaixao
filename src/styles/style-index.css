@@ -235,6 +235,7 @@ nav {
   border-radius: 8px;
   font-weight: 600;
   background-color: #DECCBB;
+  padding-left: 16px;
 }
 .form-footer input[type="text"]::placeholder, input[type="email"]::placeholder{
   padding-left: 16px;
@@ -259,8 +260,8 @@ nav {
   border-radius: 8px;
   font-weight: 600;
 }
-.form-footer textarea::placeholder{
+.form-footer textarea::-moz-placeholder{
   color: var(--color-black);
-  padding-left: 16px;
+  padding-left: 32px;
   padding-top: 8px;
 }
